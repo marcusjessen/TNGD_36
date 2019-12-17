@@ -1,0 +1,388 @@
+.Maasai img {
+    top: -10px;
+}
+
+.Maasai1 img {
+    height: 550px;
+    position: absolute;
+    margin: 110px 0px 0 550px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai1b img {
+    height: 550px;
+    position: absolute;
+    margin: 110px 0px 0 650px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Maasai1b img:active {
+    height: 90%;
+    margin: 50px 10% 0 30%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Maasai1 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai1b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MaasaiText {
+    position: absolute;
+    margin: 45px 950px 50px 100px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai1 h4 {
+    opacity: 0%
+}
+
+.Maasai1b h4 {
+    opacity: 100%
+}
+
+.HoldDown {
+    position: absolute;
+    margin: 650px 25px 0px 850px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: right;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Maasai2 */
+
+.Maasai2 img {
+    height: 550px;
+    position: absolute;
+    margin: 850px 700px 0 50px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai2b img {
+    height: 550px;
+    position: absolute;
+    margin: 850px 600px 0 50px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Maasai2b img:active {
+    height: 90%;
+    margin: 775px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Maasai2 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai2b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MaasaiText2 {
+    position: absolute;
+    margin: 815px 100px 50px 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Maasai3 */
+
+.Maasai3 img {
+    height: 550px;
+    position: absolute;
+    margin: 1550px 50px 0 550px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai3b img {
+    height: 550px;
+    position: absolute;
+    margin: 1550px 50px 0 650px;
+    opacity: 100%;
+    z-index: 0;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai3b img:active {
+    height: 90%;
+    margin: 1475px 10% 0 25%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Maasai3 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai3b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MaasaiText3 {
+    position: absolute;
+    margin: 1650px 950px 0px 100px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Dance {
+    margin: 2275px 0px 0px 0px;
+    height: 10px;
+}
+
+.Dance img {
+    top: 100px;
+}
+
+/* Maasai4 */
+
+.Maasai4 img {
+    height: 550px;
+    position: absolute;
+    margin: 915px 50px 0 550px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai4b img {
+    height: 550px;
+    position: absolute;
+    margin: 915px 50px 0 650px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 0;
+}
+
+.Maasai4b img:active {
+    height: 95%;
+    margin: 915px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Maasai4 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai4b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 0;
+}
+
+.MaasaiText4 {
+    position: absolute;
+    margin: 850px 950px 0px 150px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    Z-index: 1;
+}
+
+/* Maasai5 */
+
+.Maasai5 img {
+    height: 500px;
+    position: absolute;
+    margin: 1650px 600px 50px 100px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai5b img {
+    height: 500px;
+    position: absolute;
+    margin: 1650px 650px 50px 50px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Maasai5b img:active {
+    height: 90%;
+    margin: 1650px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Maasai5 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Maasai5b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.MaasaiText5 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: 1600px 150px 50px 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+
+/* Fire */
+
+.Fire {
+    height: 800px;
+    background-image: url("../img/IMG_8823.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2300px 0 500px 0;
+}
+
+/* MaraGroup2 */
+
+.MaraGroup2 {
+    margin: 50px 100px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: right;
+    grid-gap: 50px;
+}
+
+.Mara2:nth-child(1) {
+    margin: 20px 0px 0;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Mara2:nth-child(1) img:active {
+    height: 575px;
+    margin: 50px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Mara2:nth-child(2) {
+    margin: 700px 0px 0;
+}
+
+.Mara2:nth-child(2) img:active {
+    height: 600px;
+    margin: 0px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Mara2:nth-child(3) {
+    margin: 90px 0 0;
+}
+
+.Mara2:nth-child(3) img:active {
+    height: 600px;
+    margin: -50px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Mara2:nth-child(4) {
+    margin: 625px 0 0;
+}
+
+.Mara2:nth-child(4) img:active {
+    height: 600px;
+    margin: -100px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    
+}
+
+.Explore2 p:nth-child(1) {
+    margin: -400px 500px 0px;
+    text-align: center;
+    padding: 10px 20px 10px 30px;
+}
+
+.Explore2 p:nth-child(2) {
+    margin: -60px 200px 0 200px;
+}
+
+.Explore2 p:nth-child(3) {
+    margin: 1050px 0 0 200px;
+}
+
+
+.Explore2 p:nth-child(4) {
+    margin: 2200px 0 0 200px;
+}
+
+.Explore2 p:nth-child(5) {
+    margin: 2675px 0 0 50px;
+}

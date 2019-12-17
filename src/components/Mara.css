@@ -1,0 +1,51 @@
+.Mara {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    margin: 275px 0 0;
+}
+
+.Mara img {
+    height: 375px;
+    position: absolute;
+    right: 0px;
+}
+
+.Mara2 {
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+
+.Mara2 img {
+    height: 375px;
+    position: absolute;
+    right: 0px;
+}
+
+
+.Explore p {
+    width: 30%;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Explore2 p {
+    width: 30%;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}

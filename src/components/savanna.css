@@ -1,0 +1,542 @@
+.Savanna-Intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: -400px 550px 100px 550px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 4s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller1 */
+
+.Sav3 .Sav3b {
+ position: relative;
+ height: 2000px;
+}
+
+.Sav3 img {
+    height: 600px;
+    position: absolute;
+    margin: 50px 0px 0 500px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav3b img {
+    height: 600px;
+    position: absolute;
+    margin: 50px 0px 0 600px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Sav3b img:active {
+    height: 95%;
+    margin: 50px 10% 0 30%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav3 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav3b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Wildebeest {
+    position: absolute;
+    margin: 100px 950px 50px 100px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav3 h4 {
+    opacity: 0%
+}
+
+.Sav3b h4 {
+    opacity: 100%
+}
+
+.HoldDown {
+    position: absolute;
+    margin: 650px 25px 0px 850px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: right;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller2 */
+
+.Sav4 img {
+    height: 550px;
+    position: absolute;
+    margin: 800px 700px 0 50px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav4b img {
+    height: 550px;
+    position: absolute;
+    margin: 800px 600px 0 50px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Sav4b img:active {
+    height: 90%;
+    margin: 800px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav4 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav4b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Wildebeest2 {
+    position: absolute;
+    margin: 1010px 100px 50px 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller3 */
+
+.Sav5 img {
+    height: 550px;
+    position: absolute;
+    margin: 1500px 50px 0 550px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav5b img {
+    height: 550px;
+    position: absolute;
+    margin: 1500px 50px 0 650px;
+    opacity: 100%;
+    z-index: 0;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav5b img:active {
+    height: 90%;
+    margin: 1500px 10% 0 25%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav5 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav5b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Wildebeest3 {
+    position: absolute;
+    margin: 1700px 950px 0px 100px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Elephant */
+
+.SavannaHeadline {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    text-transform: lowercase;
+    margin: 0px auto;
+    text-align: center;
+    animation: maasai-animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Elephant {
+    height: 800px;
+    background-image: url("../img/IMG_9010b.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2250px 0 500px 0;
+}
+
+/* Scroller4 */
+
+.Sav6 img {
+    height: 550px;
+    position: absolute;
+    margin: -375px 550px 0 50px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav6b img {
+    height: 550px;
+    position: absolute;
+    margin: -375px 650px 0 50px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 0;
+}
+
+.Sav6b img:active {
+    height: 80%;
+    margin: -375px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav6 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav6b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 1;
+}
+
+.ElephantText {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: -300px 150px 0px 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    Z-index: 1;
+}
+
+/* Scroller5 */
+
+.Sav7 img {
+    height: 350px;
+    position: absolute;
+    margin: 350px 50px 0 600px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav7b img {
+    height: 400px;
+    position: absolute;
+    margin: 350px 0px 0 650px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Sav7b img:active {
+    height: 70%;
+    margin: 350px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav7 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav7b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ElephantText2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: 275px 950px 0px 150px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller6 */
+
+.Sav8 img {
+    height: 500px;
+    position: absolute;
+    margin: 950px 600px 50px 100px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav8b img {
+    height: 500px;
+    position: absolute;
+    margin: 950px 650px 50px 50px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Sav8b img:active {
+    height: 90%;
+    margin: 950px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav8 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav8b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ElephantText3 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: 875px 150px 0px 950px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller7 */
+
+.Sav9 img {
+    height: 400px;
+    position: absolute;
+    margin: 1650px 150px 50px 650px;
+    opacity: 0%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav9b img {
+    height: 400px;
+    position: absolute;
+    margin: 1650px 150px 0px 750px;
+    opacity: 100%;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+}
+
+.Sav9b img:active {
+    height: 80%;
+    margin: 1650px 10% 0 10%;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+} 
+
+.Sav9 p {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Sav9b p {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ElephantText4 {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    position: absolute;
+    margin: 1600px 950px 0px 150px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 4s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Scroller8 */
+
+.Ivory {
+    position: absolute;
+    margin: 2150px 350px 0px 350px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    animation: maasai-animation 7s 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Kenyatta h1 {
+    opacity: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Kenyatta2 h1 {
+    opacity: 100%;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ElephantEnd {
+    margin: 3000px 0px 0px 0px;
+}
+
+.MaraGroup {
+    margin: -50px 100px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: right;
+    grid-gap: 50px;
+}
+
+.Mara:nth-child(1) img:active {
+    height: 600px;
+    margin: -50px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Explore p:nth-child(1) {
+    margin: -175px 500px 0px;
+    text-align: center;
+    padding: 10px 20px 10px 30px;
+}
+
+.Explore p:nth-child(2) {
+    margin: 150px 200px 0 200px;
+}
+
+.Mara:nth-child(2) {
+    margin: 455px 0px 0;
+}
+
+.Mara:nth-child(2) img:active {
+    height: 600px;
+    margin: 0px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Explore p:nth-child(3) {
+    margin: 1000px 0 0 200px;
+}
+
+.Mara:nth-child(3) {
+    margin: 505px 0 0;
+}
+
+.Mara:nth-child(3) img:active {
+    height: 600px;
+    margin: 0px 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Explore p:nth-child(4) {
+    margin: 1900px 0 0 200px;
+}
+
+.Mara:nth-child(4) {
+    margin: 650px 0 0;
+}
+
+.Mara:nth-child(4) img:active {
+    height: 600px;
+    margin: 0 25% 0 25%;
+    overflow: none;
+    z-index: 2;
+    transition: 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Explore p:nth-child(5) {
+    margin: 2950px 0 0 200px;
+}

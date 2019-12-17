@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0px; 
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased; /* only for safari */
+
+}
+
+a {
+    color: #5334F5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header {
+    margin: 0 0 50 0;
+}
+
+.hero {
+    background: url('../img/IMG_8685.jpg');
+    height: 920px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.herogroup {
+    margin: 0 auto 0 auto;
+    max-width: 500px;
+    padding: 150px 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    text-transform: lowercase;
+}
+
+.intro-p {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    position: center;
+    margin: 35px 40px 0px 40px;
+}
+
+.hero p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Cormorant', serif;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 30px 20px 30px;
+}
+
+.hero a {
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-transform:uppercase;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 9px 20px;
+    border: 1px solid rgab(255, 255, 255, 0.25);
+    border-radius: 20px;
+}
