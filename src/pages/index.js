@@ -1,12 +1,7 @@
 import React from "react"
 import Link from 'react-router-dom'
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import header from "../components/header"
 import Card from '../components/Card'
-import TheHero from "../components/TheHero"
-import styled from 'styled-components'
 
 const IndexPage = () => (
   <Layout>
