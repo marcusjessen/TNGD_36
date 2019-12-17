@@ -33,7 +33,7 @@ class Scroller extends React.Component {
             <div class={this.state.hasScrolled ? 'Sav3' : 'Sav3b'}>
               <img src={require('../img/IMG_9129.jpg')}/>  
             
-            <div class="Wildebeest">
+            <div className="Wildebeest">
               <p>The Great Migration
                   <hr/>
                   <br/>
@@ -47,7 +47,7 @@ class Scroller extends React.Component {
                 </p>
             </div>
 
-            <h4 class="HoldDown">
+            <h4 className="HoldDown">
                 You can get a closer look at the images by hovering over them and holding down the left mouse button...
             </h4>
 

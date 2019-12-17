@@ -29,9 +29,9 @@ class Scroller8 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Kenyatta' : 'Kenyatta2'}>
+            <div className={this.state.hasScrolled ? 'Kenyatta' : 'Kenyatta2'}>
             
-            <div class="Ivory">
+            <div className="Ivory">
                 <h1> 
                   "For us, ivory is worthless 
                   <br/>

@@ -29,10 +29,10 @@ class Scroller10 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Maasai2' : 'Maasai2b'}>
+            <div className={this.state.hasScrolled ? 'Maasai2' : 'Maasai2b'}>
               <img src={require('../img/IMG_8726b.jpg')}/>  
             
-            <div class="MaasaiText2">
+            <div className="MaasaiText2">
                 <p>
                   Adumu, or aigus, is the Maa for "to jump up and down in a dance". Adumu is the jumping dance that the Maasai are so famous for.
                   <br/>

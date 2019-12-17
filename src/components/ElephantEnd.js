@@ -3,7 +3,7 @@ import {Parallax} from 'react-parallax'
 import "./savanna.css"
 
 const ElephantEnd = () => (
-    <div class="ElephantEnd">
+    <div className="ElephantEnd">
        <Parallax
             blur={{ min: -15, max: 20 }}
             bgImage={require('../img/IMG_3939.jpg')}

@@ -29,10 +29,10 @@ class Scroller9 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Maasai1' : 'Maasai1b'}>
+            <div className={this.state.hasScrolled ? 'Maasai1' : 'Maasai1b'}>
               <img src={require('../img/IMG_8693.jpg')}/>  
             
-            <div class="MaasaiText">
+            <div className="MaasaiText">
                 <p>
                     The Warriors of the Plains
                     <hr/>
@@ -49,7 +49,7 @@ class Scroller9 extends React.Component {
                 </p>
             </div>
 
-            <h4 class="HoldDown">
+            <h4 className="HoldDown">
                 You can get a closer look at the images by hovering over them and holding down the left mouse button...
             </h4>
 

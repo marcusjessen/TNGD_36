@@ -29,10 +29,10 @@ class Scroller3 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Sav4' : 'Sav4b'}>
+            <div className={this.state.hasScrolled ? 'Sav4' : 'Sav4b'}>
               <img src={require('../img/IMG_8933.jpg')}/>  
             
-            <div class="Wildebeest2">
+            <div className="Wildebeest2">
                 <p>
                   ...the migration, however, is no easy feat. Each year around 250, 000 are killed by carnivores or die from thirst, hunger and exhaustion...
                 </p>

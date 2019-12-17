@@ -29,10 +29,10 @@ class Scroller13 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Maasai5' : 'Maasai5b'}>
+            <div className={this.state.hasScrolled ? 'Maasai5' : 'Maasai5b'}>
               <img src={require('../img/IMG_8719.jpg')}/>  
             
-            <div class="MaasaiText5">
+            <div className="MaasaiText5">
                 <p>
                     In Maasai tradition, the hair also carries significance. Shaving the hair represents the start of a new chapter in one's life. Only warriors may carry long hair, which as you see in the picture to the left is braided into thin strands.
                     <br/>

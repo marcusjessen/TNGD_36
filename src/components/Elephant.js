@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Elephant = props => (
-    <div class= "Elephant">
+    <div className= "Elephant">
 
     </div>
     

@@ -29,10 +29,10 @@ class Scroller11 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Maasai3' : 'Maasai3b'}>
+            <div className={this.state.hasScrolled ? 'Maasai3' : 'Maasai3b'}>
               <img src={require('../img/IMG_8733.jpg')}/>  
             
-            <div class="MaasaiText3">
+            <div className="MaasaiText3">
                 <p>
                 The boy who jumps the highest will secure their status as a warrior and gain the option to choose their bride first.
                 <br/>

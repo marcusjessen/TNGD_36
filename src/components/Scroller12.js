@@ -29,10 +29,10 @@ class Scroller12 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Maasai4' : 'Maasai4b'}>
+            <div className={this.state.hasScrolled ? 'Maasai4' : 'Maasai4b'}>
               <img src={require('../img/IMG_8770.jpg')}/>  
             
-            <div class="MaasaiText4">
+            <div className="MaasaiText4">
                 <p>
                     Besides the adumu the Maasai have also gained recognition from their  clothing. Most widely recognised is probably the large sheet that the Maasai traditionally wrap around the body. This sheet is called Shúkà. 
                     <br/>

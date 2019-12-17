@@ -29,10 +29,10 @@ class Scroller7 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Sav9' : 'Sav9b'}>
+            <div className={this.state.hasScrolled ? 'Sav9' : 'Sav9b'}>
               <img src={require('../img/IMG_4200.jpg')}/>  
             
-            <div class="ElephantText4">
+            <div className="ElephantText4">
                 <p>
                     Hopefully, conversion and anti-poaching projects will be successful in strengthening the elephants, and other vulnerable species inhabiting the Mara.
                     <br/>
