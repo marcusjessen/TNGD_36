@@ -11,7 +11,7 @@ const TheHero = () => (
         >
             <div style={{ height: '350px' }} />
 
-             <div class="intro-p">
+             <div className="intro-p">
                 <p>Welcome to our basecamp. 
                   <br/>
                   <br/>

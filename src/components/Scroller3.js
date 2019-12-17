@@ -29,10 +29,10 @@ class Scroller3 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Sav5' : 'Sav5b'}>
+            <div className={this.state.hasScrolled ? 'Sav5' : 'Sav5b'}>
               <img src={require('../img/IMG_9034.jpg')}/>  
             
-            <div class="Wildebeest3">
+            <div className="Wildebeest3">
                 <p>
                   ...but for those who survive, a land of lush grass and plenty of water awaits.
 

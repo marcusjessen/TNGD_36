@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Fire = props => (
-    <div class= "Fire">
+    <div className= "Fire">
 
     </div>
     

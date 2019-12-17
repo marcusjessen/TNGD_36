@@ -10,13 +10,13 @@ const Savanna = () => (
             bgImageAlt="zebras"
             strength={-300}
         >
-            <div class="SavannaHeadline">
+            <div className="SavannaHeadline">
               <h1> safari </h1>
             </div>
 
             <div style={{ height: '350px' }} />
 
-             <div class="Savanna-Intro">
+             <div className="Savanna-Intro">
 
                 <p>Welcome to the savannah of Maasai Mara. We are going on safari. "Safari" is Kiswahili for "travel".
                   <br></br>

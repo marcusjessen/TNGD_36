@@ -10,13 +10,13 @@ const Maasai = () => (
             bgImageAlt="MaasaiJump"
             strength={-300}
         >
-            <div class="SavannaHeadline">
+            <div className="SavannaHeadline">
               <h1> maasai </h1>
             </div>
 
             <div style={{ height: '350px' }} />
 
-             <div class="Savanna-Intro">
+             <div className="Savanna-Intro">
 
                 <p>Welcome to one of many Maasai villages. The Maasai people live in many places across Kenya and in northern Tanzania. They are most likely the most well-known people in Kenya
                   <br></br>

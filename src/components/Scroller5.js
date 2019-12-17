@@ -29,10 +29,10 @@ class Scroller5 extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'Sav7' : 'Sav7b'}>
+            <div className={this.state.hasScrolled ? 'Sav7' : 'Sav7b'}>
               <img src={require('../img/Satao.jpg')}/>  
             
-            <div class="ElephantText2">
+            <div className="ElephantText2">
                 <p>
                     However, due to poaching the African elephant has a conversion status of "vulnerable". What for? Their ivory tusks.
                     <br/>
