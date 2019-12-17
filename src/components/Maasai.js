@@ -1,6 +1,6 @@
 import React from 'react'
 import {Parallax} from 'react-parallax'
-import "./maasai.css"
+import "./Maasai.css"
 
 const Maasai = () => (
     <div>
