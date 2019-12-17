@@ -1,7 +1,7 @@
 import React from "react"
 import './header.css'
 
-className header extends React.Component {
+class header extends React.Component {
     constructor(props) {
         super(props)
 
