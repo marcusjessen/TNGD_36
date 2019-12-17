@@ -39,9 +39,9 @@ const SavannaPage = () => (
 
     <ElephantEnd/>
 
-    <div class="Explore">
+    <div className="Explore">
 
-        <p class="Explore">
+        <p className="Explore">
           <hr/>
           <br/>
           Let us take a look at other species <br/> living on the Maasai Mara...
@@ -51,7 +51,7 @@ const SavannaPage = () => (
 
         </p>
 
-        <p class="Explore">
+        <p className="Explore">
           The giraffe
           <hr/>
           <br/>
@@ -67,7 +67,7 @@ const SavannaPage = () => (
           <hr/>
         </p>
 
-        <p class="Explore">
+        <p className="Explore">
           The African, or Cape buffalo
           <hr/>
           <br/>
@@ -83,7 +83,7 @@ const SavannaPage = () => (
           <hr/>
         </p>
 
-        <p class="Explore">
+        <p className="Explore">
           The Zebra
           <hr/>
           <br/>
@@ -99,7 +99,7 @@ const SavannaPage = () => (
           <hr/>
         </p>
 
-        <p class="Explore">
+        <p className="Explore">
           The Cheetah
           <hr/>
           <br/>
@@ -118,7 +118,7 @@ const SavannaPage = () => (
 
     </div>
 
-        <div class="MaraGroup">
+        <div className="MaraGroup">
 
               <Mara 
                 image={require('../img/IMG_3809.jpg')}
@@ -138,7 +138,7 @@ const SavannaPage = () => (
 
         </div>
         
-        <div class="SavBack">
+        <div className="SavBack">
           <a href="/"> 
             <hr/>
             Go back to Basecamp 

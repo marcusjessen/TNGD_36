@@ -1,7 +1,7 @@
 import React from "react"
 import './header.css'
 
-class header extends React.Component {
+className header extends React.Component {
     constructor(props) {
         super(props)
 
@@ -29,7 +29,7 @@ class header extends React.Component {
 
     render() {
         return(
-            <div class={this.state.hasScrolled ? 'header headerScrolled' : 'header'}>
+            <div className={this.state.hasScrolled ? 'header headerScrolled' : 'header'}>
               <h1>Maasai Mara</h1>
 
             </div>

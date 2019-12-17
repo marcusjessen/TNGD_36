@@ -15,7 +15,7 @@ import SavannahEnd from "../components/SavannahEnd"
 const MaasaiPage = () => (
     <SLayout>
 
-    <div class="Maasai">
+    <div className="Maasai">
       <Maasai/>
     </div>
 
@@ -33,9 +33,9 @@ const MaasaiPage = () => (
 
       <Fire/>
 
-      <div class="Explore2">
+      <div className="Explore2">
 
-      <p class="Explore2">
+      <p className="Explore2">
         <hr/>
         <br/>
         Let us take a look at other species <br/> living on the Maasai Mara...
@@ -45,7 +45,7 @@ const MaasaiPage = () => (
 
       </p>
 
-      <p class="Explore2">
+      <p className="Explore2">
         Business
         <hr/>
         <br/>
@@ -61,7 +61,7 @@ const MaasaiPage = () => (
         <hr/>
       </p>
 
-      <p class="Explore2">
+      <p className="Explore2">
         Cattle
         <hr/>
         <br/>
@@ -86,7 +86,7 @@ const MaasaiPage = () => (
     
       </div>
 
-      <div class="MaraGroup2">
+      <div className="MaraGroup2">
 
             <Mara2 
               image={require('../img/IMG_8838.jpg')}
@@ -102,7 +102,7 @@ const MaasaiPage = () => (
 
       </div>
 
-      <div class="SavBack">
+      <div className="SavBack">
           <a href="/"> 
             <hr/>
             Go back to Basecamp 
